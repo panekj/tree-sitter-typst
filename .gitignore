@@ -1,8 +1,38 @@
-log.html
-node_modules
-package-lock.json
-target
-# src/grammar.json
-# src/node-types.json
-# src/tree_sitter/parser.h
-# src/parser.c
+# Rust artifacts
+Cargo.lock
+target/
+
+# Node artifacts
+build/
+prebuilds/
+node_modules/
+*.tgz
+
+# Swift artifacts
+.build/
+
+# Go artifacts
+go.sum
+_obj/
+
+# Python artifacts
+.venv/
+dist/
+*.egg-info
+*.whl
+
+# C artifacts
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.pc
+
+# Example dirs
+/examples/*/
+
+# Grammar volatiles
+*.wasm
+*.obj
+*.o
